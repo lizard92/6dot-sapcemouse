@@ -1,11 +1,4 @@
-//The code below is a combination of code written by a guest Pastebin user, and the source code for the Space-Mushroom project by 'Shiura' on thingiverse and instructables. Thank you for creating this project!! Amazing work!
-//Also note, this is my blind attempt at splicing the two bits of code together until they work. It is definitely not perfect, or tidy, but it works for me at the moment. I will look at tidying up the code and possibly streamlining the operation at a later date.
- 
-// This code makes your Arduino act as a 3DConnexion SpaceMouse (32u4-based board required).
-// To make this work you also need to set the USB Vendor ID and Product ID to values matching a real 3DConnexion device.
-// You can do this by editing appropriate entries in the boards.txt file in your Arduino installation.
-// Example values: vid=0x256f, pid=0xc631 (SpaceMouse Pro Wireless (cabled))
-// Then install the 3DxWare software from 3DConnexion on your computer and you can use you Arduino device in software like Fusion 360 as it it were a real SpaceMouse.
+
 
  
 #include "HID.h"
