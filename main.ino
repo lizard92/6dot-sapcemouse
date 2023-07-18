@@ -6,6 +6,7 @@
 // You can do this by editing appropriate entries in the boards.txt file in your Arduino installation.
 // Example values: vid=0x256f, pid=0xc631 (SpaceMouse Pro Wireless (cabled))
 // Then install the 3DxWare software from 3DConnexion on your computer and you can use you Arduino device in software like Fusion 360 as it it were a real SpaceMouse.
+
  
 #include "HID.h"
  
