@@ -63,7 +63,7 @@ static const uint8_t _hidReportDescriptor[] PROGMEM = {
 #define RZ 5 // rotation Z
  
 /// hardware 
-#define DEAD_THRESH 2 //Deazone for ignoring small movement
+#define DEAD_THRESH 30 //Deazone for ignoring small movement
 #define SPEED_PARAM 40 // larger is slower
  
  
